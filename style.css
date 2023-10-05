@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #0e0315;
+    background: #072E33;
 }
 #header{
     padding: 20px 2%;
@@ -105,9 +105,9 @@ nav ul li a:hover::after{
 }
 .work-list{
     margin-left: 4rem;
-    margin-right: 3rem;
+    margin-right: 4rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
     grid-gap:15px;
     margin-top: 35px;
 }
