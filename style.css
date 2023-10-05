@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #072E33;
+    background: #04262a;
 }
 #header{
     padding: 20px 2%;
@@ -264,6 +264,18 @@ small
 .btn:hover{
     background-color: white;
 }
+h4{
+    font-size: 20px;
+    color: #eef8ff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+    color: #90adc2;
+    text-align: center;
+    margin-bottom: 15px;
+}
 
 nav .fa-solid{
     display: none;
@@ -320,10 +332,18 @@ nav .fa-solid{
     .text p{
         font-size: 10px;
     }
-    
-
-
-
+    h4{
+        font-size: 15px;
+        color: #307fb7;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    h5{
+        font-size: 14px;
+        color: #2d7bb3;
+        text-align: center;
+        margin-bottom: 15px;
+    }
     .text-line h3{
         font-size: 15px;
     }
