@@ -17,11 +17,11 @@ body{
 }
 .container h4{
     margin-top: 20px;
-    font-size: 25px; 
+    font-size: 35px; 
     color: white;
 }
 .container h2{
-    margin-top: 0.56px;
+    /* margin-top: 0.56px; */
     font-size: 30px;
 }
 .container h2 span{
@@ -44,7 +44,7 @@ nav ul li{
 nav ul li a{ 
     text-decoration: none;
     color: rgb(255, 255, 255); 
-    font-size: 18px;
+    font-size: 30px;
     position: relative;
 }
 nav ul li a::after{
@@ -71,7 +71,7 @@ nav ul li a:hover::after{
 .infocontainer h2{
     font-size: 20px;
     text-align: center;
-    color: green;
+    color: rgb(9, 224, 213);
 }
 /* -----------------------------about-------------------------------------- */
 .text{
@@ -80,21 +80,30 @@ nav ul li a:hover::after{
 .text h3{
     margin-top: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #ffffff;
 }
 .text p{
     margin-top: 0.5rem;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     color: #ffffff;
 }
 /* -----------------------------Amazon & flipkart------------------------------- */
 #amazon{
-    padding: 40px 0;
+    padding: 30px 0;
+}
+#asus{
+    padding: 30px 0;
 }
 .box{
     margin-top: 0.5px;
+}
+#amazon a{
+    font-size: 30px;
+}
+#asus a{
+    font-size: 30px;
 }
 .text h4{
     margin-top: 25px;
@@ -103,12 +112,20 @@ nav ul li a:hover::after{
     font-size: 65px;
     color: rgb(255, 221, 2);
 }
+.box h5{
+    margin-top: 25px;
+    text-align: center;
+    padding: 0px 3%;
+    font-size: 35px;
+    color: rgb(62, 235, 226);
+}
 .work-list{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
-    grid-gap:15px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 3fr));
+    grid-gap:25px;
     margin-top: 35px;
 }
 .work{
@@ -118,6 +135,8 @@ nav ul li a:hover::after{
 }
 .work img{
     margin: auto;
+    /* margin-left: 20px;
+    margin-left: 20px; */
     width: 100%;
     flex-basis: 70px;
     border-radius: 10px;
@@ -149,18 +168,18 @@ nav ul li a:hover::after{
     margin-bottom: 10px;
     color: #ffffff;
 }
-.layer a{
+/* .layer a{
     margin-top: 30px;
     color: #6fe500;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 60px;
     background: #050000;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
-}
+} */
 .work:hover img{
     transform: scale(1.1);
 }
@@ -175,14 +194,14 @@ nav ul li a:hover::after{
 .text-line h3{
     margin-top: 3%;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #ececec;
 }
 .text-line p{
     margin-top: 0.5rem;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
-    color: #b3bbc1;
+    color: #ffffff;
 }
 .text-line h5{
     margin-top: 2rem;
@@ -200,7 +219,7 @@ footer {
     font-weight: 500;
     margin-top: 20px;
 }
-.footer__logo {
+.footer__logo{
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
@@ -218,8 +237,12 @@ footer {
     display: flex;
     justify-content: center;
 }
+.footer__logo h4{
+    font-size: 20px;
+    color: #3ad015;
+}
 .footer__socials a{
-    /* background: #1f1f38; */
+    background: #1f1f38;
     border: 1px solid transparent;
     border-radius: 0.7rem;
     color: white;
@@ -244,7 +267,7 @@ footer a i:hover {
 }
 small
 {
-    font-size: smaller;
+    font-size: 20px;
     margin-top: 50px;
     color: white;
 }
@@ -265,14 +288,14 @@ small
     background-color: white;
 }
 h4{
-    font-size: 20px;
-    color: #eef8ff;
+    font-size: 30px;
+    color: #0c71b9;
     margin-bottom: 15px;
     text-align: center;
 }
 h5{
     font-size: 20px;
-    color: #90adc2;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -285,6 +308,19 @@ nav .fa-solid{
         margin-top: 20px;
         font-size: 10px; 
         color: white;
+    }
+    #amazon a{
+        font-size: 15px;
+    }
+    #asus a{
+        font-size: 15px;
+    }
+    .box h5{
+        margin-top: 25px;
+        text-align: center;
+        padding: 0px 3%;
+        font-size: 16px;
+        color: rgb(62, 235, 226);
     }
     .container h2{
         margin-top: 0.56px;
@@ -323,6 +359,14 @@ nav .fa-solid{
         font-size: 8     px;
 
     }
+    .work-list{
+        /* margin-left: 90px;
+        margin-right: 90px; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 0.5fr));
+        grid-gap:15px;
+        margin-top: 35px;
+    }
     .text h3{
         font-size: 20px;
     }
@@ -348,7 +392,7 @@ nav .fa-solid{
         font-size: 20px;
     }
     .text-line p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .text-line h5{
         font-size: 15px;
