@@ -17,12 +17,12 @@ body{
 }
 .container h4{
     margin-top: 20px;
-    font-size: 35px; 
+    font-size: 30px; 
     color: white;
 }
 .container h2{
     /* margin-top: 0.56px; */
-    font-size: 30px;
+    font-size: 25px;
 }
 .container h2 span{
     color: rgb(199, 8, 24);
@@ -44,7 +44,7 @@ nav ul li{
 nav ul li a{ 
     text-decoration: none;
     color: rgb(255, 255, 255); 
-    font-size: 30px;
+    font-size: 22px;
     position: relative;
 }
 nav ul li a::after{
@@ -64,12 +64,12 @@ nav ul li a:hover::after{
     padding: 10px 10px;
 }
 .infocontainer h1{
-    font-size: 70px;
+    font-size: 55px;
     text-align: center;
     color: green;
 }
 .infocontainer h2{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: rgb(9, 224, 213);
 }
@@ -85,11 +85,62 @@ nav ul li a:hover::after{
 }
 .text p{
     margin-top: 0.5rem;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color: #ffffff;
 }
 /* -----------------------------Amazon & flipkart------------------------------- */
+
+#services{
+    padding: 30px 0;
+    margin: 0;
+    flex-basis: 50px;  
+}
+.row{
+    margin-left: 90px;
+    margin-right: 90px;
+    color: rgb(9, 131, 238);
+}
+.row h3{
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(6, 44, 168);
+    text-align: center;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:40px;
+    margin-top: 10px;
+}
+.services-list div{
+    display: block;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    margin: 20px;
+    border: 1px solid #4238c9;
+    padding: 14px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #409a13;
+    color: rgb(75, 66, 66);
+    transition: background 0.5;
+    
+}
+.services-list a{
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    font-size: 15px;
+}
+.services-list img{
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+}
+
 #amazon{
     padding: 30px 0;
 }
@@ -100,10 +151,10 @@ nav ul li a:hover::after{
     margin-top: 0.5px;
 }
 #amazon a{
-    font-size: 30px;
+    font-size: 20px;
 }
 #asus a{
-    font-size: 30px;
+    font-size: 20px;
 }
 .text h4{
     margin-top: 25px;
@@ -116,8 +167,8 @@ nav ul li a:hover::after{
     margin-top: 25px;
     text-align: center;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(62, 235, 226);
+    font-size: 25px;
+    color: rgb(10, 240, 221);
 }
 .work-list{
     text-align: center;
@@ -194,12 +245,12 @@ nav ul li a:hover::after{
 .text-line h3{
     margin-top: 3%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #ececec;
 }
 .text-line p{
     margin-top: 0.5rem;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color: #ffffff;
 }
@@ -288,13 +339,13 @@ small
     background-color: white;
 }
 h4{
-    font-size: 30px;
-    color: #0c71b9;
+    font-size: 25px;
+    color: #4cc6e7;
     margin-bottom: 15px;
     text-align: center;
 }
 h5{
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 15px;
@@ -359,6 +410,55 @@ nav .fa-solid{
         font-size: 8     px;
 
     }
+    #services{
+        padding: 30px 0;
+        margin: 0;
+        flex-basis: 50px;  
+    }
+    .row{
+        margin-left: 90px;
+        margin-right: 90px;
+        color: rgb(9, 131, 238);
+    }
+    .row h3{
+        /* margin-top: 30px; */
+        font-size: 20px;
+        /* color: rgb(2, 244, 232); */
+        /* text-align: center; */
+    }
+    .services-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap:40px;
+        margin-top: 10px;
+    }
+    .services-list div{
+        display: block;
+        margin-left: 90px;
+        margin-right: 90px;
+        /* margin-bottom: 10px; */
+        margin: 20px;
+        border: 1px solid #4238c9;
+        padding: 14px 50px;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: #409a13;
+        color: rgb(75, 66, 66);
+        transition: background 0.5;
+        
+    }
+    .services-list a{
+        text-align: center;
+        font-size: 9px;
+    }
+    .services-list img{
+        text-align: center;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        width: 100%;
+        height: 60%;
+        border-radius: 5px;
+    }
+    
     .work-list{
         /* margin-left: 90px;
         margin-right: 90px; */
