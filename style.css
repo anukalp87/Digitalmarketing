@@ -13,19 +13,19 @@ body{
 .container{
     padding: 10px 10%;
     width: 100%;
-    background-color: rgb(3, 3, 66);
+    background-color: #287271;
 }
 .container h4{
     margin-top: 20px;
     font-size: 30px; 
-    color: white;
+    color: rgb(255, 246, 246);
 }
 .container h2{
     /* margin-top: 0.56px; */
     font-size: 25px;
 }
 .container h2 span{
-    color: rgb(199, 8, 24);
+    color: black;
 }
 .sidemenu{
     display: inline-block;
@@ -66,12 +66,12 @@ nav ul li a:hover::after{
 .infocontainer h1{
     font-size: 55px;
     text-align: center;
-    color: green;
+    color: #171d53;
 }
 .infocontainer h2{
     font-size: 30px;
     text-align: center;
-    color: rgb(9, 224, 213);
+    color: rgb(6, 44, 168);
 }
 /* -----------------------------about-------------------------------------- */
 .text{
