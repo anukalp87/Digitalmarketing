@@ -89,6 +89,19 @@ nav ul li a:hover::after{
     text-align: center;
     color: #ffffff;
 }
+.know h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+
+}
+.know span{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    
+}
 /* -----------------------------Amazon & flipkart------------------------------- */
 
 #services{
